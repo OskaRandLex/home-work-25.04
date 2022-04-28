@@ -294,3 +294,181 @@ body {
 .hr-footer {
     margin-bottom: 64px;
 }
+
+.other-works {
+    display: flex;
+    margin-left: 410px;
+    margin-top: 33px;
+    margin-bottom: 102px;
+}
+
+.work-card {
+    width: 542px;
+    height: 258px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-1 {
+    margin-right: 21px;
+    background-image: url(/home-work-25.04/img/card-img-1.png);
+}
+
+.card-1 .p-1 {
+    margin-top: 30px;
+    font-size: 13px;
+    color: white;
+    line-height: 21px;
+    margin-bottom: 20px;
+    margin-bottom: 23px;
+}
+
+.card-1 .p-2 {
+    font-size: 18px;
+    color: white;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.card-2 {
+    background-image: url(/home-work-25.04/img/card-img-2.png);
+}
+
+.card-2 .p-3 {
+    margin-top: 42px;
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.card-2 .p-4 {
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 29px;
+    color: white;
+}
+
+footer {
+    background-color: #1B1B1B;
+}
+
+.footer-info {
+    display: flex;
+    padding-top: 64px;
+    padding-left: 408px;
+    padding-bottom: 83px;
+}
+
+.footer-info p {
+    color: white;
+}
+
+.footer-info h3 {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.info-block-1 {
+    margin-right: 97px;
+}
+
+.info-block-1 p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 22px;
+}
+
+.info-block-2 {
+    margin-right: 112px;
+}
+
+.info-block-3 {
+    margin-right: 77px;
+}
+
+.info-block-3 h3::before {
+    content: url(/home-work-25.04/img/location-icon.png);
+    position: absolute;
+    left: 1032px;
+}
+
+.info-block-4 h3::before {
+    content: url(/home-work-25.04/img/location-icon.png);
+    position: absolute;
+    right: 623px;
+}
+
+.info-block-3 p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.info-block-3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.info-block-4 p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.line-top {
+    align-items: flex-start;
+}
+
+.line-top img {
+    margin-top: 7px;
+}
+
+.line img {
+    width: 19px;
+    height: 16px;
+    margin-right: 16px;
+}
+
+.line a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+}
+
+.last-hr {
+    width: 1111px;
+    margin-left: 407px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 23px;
+}
+
+.team-info {
+    display: flex;
+    margin-left: 407px;
+    margin-right: 402px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+    padding-bottom: 273px;
+}
+
+.team-info p {
+    margin-top: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.foter-btn img:first-child {
+    padding-right: 23px;
+}
