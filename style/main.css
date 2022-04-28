@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Graphik LCG";
-    src: url(/home-work-25.04/font/GraphikLCG-Regular.ttf) format('ttf'), url(/home-work-25.04/font/GraphikLCG-Regular.woff) format('woff');
+    src: url(../font/GraphikLCG-Regular.ttf) format('ttf'), url(../font/GraphikLCG-Regular.woff) format('woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Graphik LCG";
-    src: url(/home-work-25.04/font/GraphikLCG-Bold.ttf) format('ttf'), url(/home-work-25.04/font/GraphikLCG-Bold.woff) format('woff');
+    src: url(../font/GraphikLCG-Bold.ttf) format('ttf'), url(../font/GraphikLCG-Bold.woff) format('woff');
     font-weight: 700;
 }
 
@@ -311,7 +311,7 @@ body {
 
 .card-1 {
     margin-right: 21px;
-    background-image: url(/home-work-25.04/img/card-img-1.png);
+    background-image: url(../img/card-img-1.png);
 }
 
 .card-1 .p-1 {
@@ -331,7 +331,7 @@ body {
 }
 
 .card-2 {
-    background-image: url(/home-work-25.04/img/card-img-2.png);
+    background-image: url(../img/card-img-2.png);
 }
 
 .card-2 .p-3 {
@@ -390,13 +390,13 @@ footer {
 }
 
 .info-block-3 h3::before {
-    content: url(/home-work-25.04/img/location-icon.png);
+    content: url(../img/location-icon.png);
     position: absolute;
     left: 1032px;
 }
 
 .info-block-4 h3::before {
-    content: url(/home-work-25.04/img/location-icon.png);
+    content: url(../img/location-icon.png);
     position: absolute;
     right: 623px;
 }
