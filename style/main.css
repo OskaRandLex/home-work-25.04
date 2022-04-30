@@ -1,3 +1,6 @@
+
+
+
 @font-face {
     font-family: "Graphik LCG";
     src: url(../font/GraphikLCG-Regular.ttf) format('ttf'), url(../font/GraphikLCG-Regular.woff) format('woff');
@@ -9,6 +12,8 @@
     src: url(../font/GraphikLCG-Bold.ttf) format('ttf'), url(../font/GraphikLCG-Bold.woff) format('woff');
     font-weight: 700;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Graphik LCG";
@@ -28,22 +33,24 @@ a {
     font-weight: 400;
 }
 
+
 body {
-    overflow-x: hidden;
     margin: 0 auto;
     padding: 0;
-    width: 1920px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .header {
     background-color: black;
     width: 100%;
     height: 839px;
+    margin: 0 auto;
 }
 
 .header-img {
-    position: relative;
-    float: right;
+    position: absolute;
+    right: 0;
 }
 
 .header-content {
@@ -51,8 +58,8 @@ body {
     position: relative;
     top: 183px;
     bottom: 0;
-    left: 408px;
-    right: 333px;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -60,10 +67,10 @@ body {
 }
 
 .notebook {
-    position: absolute;
+    position: relative;
     width: 778px;
     height: 700px;
-    left: 401px;
+    right: 0; 
 }
 
 .content-block-header {
@@ -95,8 +102,10 @@ body {
     width: 100%;
 }
 
+
 .first-text {
-    padding-left: 405px;
+    width: 1111px;
+    margin: 0 auto;
 }
 
 .first-text h1 {
@@ -122,18 +131,35 @@ body {
     top: 147px;
 }
 
+.fiv-img-text {
+    max-height: 1090px;
+    margin-top: 100px;
+    background-image: url(../img/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: 0% 95%;
+}
+
 .pics-text {
-    position: absolute;
     display: flex;
     margin: 0;
     padding: 0;
-    top: 1517px;
+    top: -1039px;
+    max-width: 1515px;
+}
+
+.five-img-img {
+    width: 100%;
+}
+
+.pics-text-container {
+    position: relative;
 }
 
 .text-text {
-    position: relative;
+    position: absolute;
     text-align: right;
-    right: 336px;
+    top: 0;
+    right: 0;
 }
 
 .text-text h2, .red-line {
@@ -168,12 +194,13 @@ body {
 }
 
 .text-2 {
-    padding-top: 200px;
+    padding-top: 407px;
 }
 
 .info-block {
     display: flex;
-    margin-left: 489px;
+    margin: 0 auto;
+    width: 931px;
     text-align: center;
 }
 
@@ -186,10 +213,9 @@ body {
 }
 
 .table-img {
-    margin-top: 69px;
-    margin-left: 402px;
-    margin-bottom: 71px;
-    margin: 69px 402px 71px;
+    width: 1110px;
+    display: block;
+    margin: 0 auto;
 }
 
 .black-div {
@@ -207,9 +233,10 @@ body {
 
 .elipse-group {
     position: absolute;
-    width: 2402.23px;
+    width: 1920px;
     height: 2461.24px;
     top: 2306px; 
+    max-width: 100%;
 }
 
 .text-3 {
@@ -218,7 +245,8 @@ body {
 
 .mega-info {
     display: flex;
-    padding-left: 456px;
+    margin: 0 auto;
+    width: 1027px;
 }
 
 .count-info {
@@ -250,8 +278,15 @@ body {
 }
 
 .phone-info {
+    position: relative;
     display: flex;
-    margin-top: 101px;
+    padding-top: 101px;
+    margin: 0 auto;
+}
+
+.phone-info img {
+    position: absolute;
+    padding-left: 50%;
 }
 
 .text-phone {
@@ -259,7 +294,8 @@ body {
 }
 
 .work-info {
-    margin-left: 408px;
+    margin: 0 auto;
+    width: 1111px;
     margin-top: 30px;
     margin-bottom: 39px;
 }
@@ -297,7 +333,8 @@ body {
 
 .other-works {
     display: flex;
-    margin-left: 410px;
+    margin: 0 auto;
+    width: 1111px;
     margin-top: 33px;
     margin-bottom: 102px;
 }
@@ -315,7 +352,7 @@ body {
 }
 
 .card-1 .p-1 {
-    margin-top: 30px;
+    padding-top: 30px;
     font-size: 13px;
     color: white;
     line-height: 21px;
@@ -335,7 +372,7 @@ body {
 }
 
 .card-2 .p-3 {
-    margin-top: 42px;
+    padding-top: 42px;
     font-size: 13px;
     line-height: 21px;
     color: white;
@@ -355,8 +392,10 @@ footer {
 
 .footer-info {
     display: flex;
+    margin: 0 auto;
+    width: 1111px;
     padding-top: 64px;
-    padding-left: 408px;
+    /* padding-left: 408px; */
     padding-bottom: 83px;
 }
 
@@ -391,14 +430,14 @@ footer {
 
 .info-block-3 h3::before {
     content: url(../img/location-icon.png);
-    position: absolute;
-    left: 1032px;
+    position: relative;
+    right: 10%;
 }
 
 .info-block-4 h3::before {
     content: url(../img/location-icon.png);
-    position: absolute;
-    right: 623px;
+    position: relative;
+    right: 10%;
 }
 
 .info-block-3 p {
@@ -447,19 +486,19 @@ footer {
 
 .last-hr {
     width: 1111px;
-    margin-left: 407px;
+    
     border: 1px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: 23px;
+    margin: 0 auto;
 }
 
 .team-info {
     display: flex;
-    margin-left: 407px;
-    margin-right: 402px;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 0;
+    margin-top: 23px;
     padding-bottom: 273px;
+    width: 1111px;
 }
 
 .team-info p {
@@ -471,4 +510,225 @@ footer {
 
 .foter-btn img:first-child {
     padding-right: 23px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .notebook {
+        top: -65px;
+        right: 85px;
+        width: 678px;
+        height: 600px;
+    }
+    .content-block-header {
+        margin-top: 50px;
+    }
+    .header {
+        height: 664px;
+    }
+    .header-img {
+        height: 717px;
+    }
+    .fiv-img-text {
+        background-position: 0% 70%;
+        background-size: 1000px 900px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .phone-info img {
+        height: 110%;
+    }
+    .phone-info {
+        padding-top: 10px;
+    }
+    .notebook {
+        top: 102px;
+        right: 49px;
+        width: 52%;
+        height: 50%;
+    }
+    .fiv-img-text {
+        background-position: 0% 64%;
+        background-size: 68% 90%;
+    }
+    .table-img {
+        width: 90%;
+    }
+    .hr {
+        width: 80%;
+    }
+    .red-line {
+        margin-left: 84%;
+    }
+    .text-text h2 {
+        padding-right: 5px;
+    }
+    .team-info {
+        width: 97%;
+    }
+    .last-hr {
+        width: 97%;
+    }
+    .footer-info {
+        width: 95%;
+    }
+    .other-works {
+        width: 90%;
+    }
+    .first-text {
+        width: 90%;
+    }
+    .work-info {
+        width: 95%;
+    }
+    .header {
+        height: 600px;
+    }
+    .header-img {
+        height: 637px;
+    }
+    .header-content {
+        top: 112px;
+        width: 95%;
+    }
+    .mega-info {
+        width: 90%;
+    }
+    .count-1 {
+        margin-right: 131px;
+    }
+    .count-2 {
+        margin-right: 103px;
+    }
+    .info-block {
+        width: 90%;
+    }
+    .text-phone p {
+        width: 50%;
+    }
+    .info-block-1 {
+        margin-right: 5%;
+    }
+    .info-block-2 {
+        margin-right: 5%;
+    }
+    .info-block-3 {
+        margin-right: 5%;
+    }
+    .content-block-header {
+        margin-top: 13px;
+    }
+    .content-block-header p {
+        width: 80%;
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 300px;
+    }
+    .header-img {
+        height: 337px;
+    }
+    .notebook {
+        top: -31px;
+        right: 100px;
+        width: 38%;
+        height: 50%;
+    }
+    .logo {
+        margin-bottom: 0;
+        width: 25%;
+    }
+    .content-block-header {
+        margin-top: -92px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .content-block-header p {
+        margin-bottom: 10px;
+    }
+    .fiv-img-text {
+        background-position: 0% 85%;
+        background-size: 58% 82%;
+    }
+    .fiv-img-text {
+        margin-top: 430px;
+    }
+    .text-text {
+        top: -400px;
+        text-align: center;
+        right: 25%;
+    }
+    .red-line {
+        margin-left: 45%;
+    }
+    .text-2 {
+        padding-top: 107px;
+    }
+    .text-phone {
+        padding-top: 20px;
+    }
+    .phone-info img {
+        height: 145%;
+    }
+    .work-info {
+        margin-left: 30%;
+    }
+    .btn {
+        width: 321px;
+        height: 95px;
+    }
+    .text-span {
+        margin-left: 13px;
+        font-size: 27px;
+    }
+    .first-text h1 {
+        font-size: 41px;
+    }
+    .other-works {
+        display: block;
+    }
+    .work-card {
+        margin: 0 auto;
+    }
+    .card-1 .p-1 {
+        font-size: 22px;
+    }
+    .card-1 .p-2 {
+        font-size: 21px;
+    }
+    .card-2 .p-3 {
+        font-size: 22px;
+    }
+    .card-2 .p-4 {
+        font-size: 21px;
+    }
+    .container {
+        padding-bottom: 0;
+        overflow-y: hidden;
+    }
+    .footer-info {
+        flex-wrap: wrap;
+    }
+    .info-block-1 {
+        margin-right: 15%;
+        padding-left: 10%;
+    }
+    .info-block-3 {
+        margin-right: 37%;
+        padding-left: 12%;
+    }
+    .team-info p {
+        font-size: 20px;
+    }
+    .foter-btn {
+        width: 74px;
+    }
+    .foter-btn img {
+        width: 25px;
+    }
 }
